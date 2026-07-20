@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Simple step-by-step guide for using the Fortescue Statutory Positions App.">
+  <title>Statutory Positions App - Simple Guide</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to the guide</a>
+
+  <header class="topbar">
+    <div class="brand-lockup" aria-label="Fortescue styled guide">
+      <span class="brand-dot" aria-hidden="true"></span>
+      <span>Fortescue</span>
+    </div>
+    <div class="top-actions">
+      <button id="textSizeButton" class="secondary-button" type="button" aria-pressed="false">Larger text</button>
+      <button id="printButton" class="secondary-button" type="button">Print guide</button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Quick reference guide</p>
+        <h1>Statutory Positions App</h1>
+        <p class="lead">A simple, step-by-step guide for making and managing statutory appointments.</p>
+        <div class="important-banner">
+          <span class="icon" aria-hidden="true">!</span>
+          <div>
+            <strong>Before you start</strong>
+            <p>The request should be completed by the appointee or their direct leader. Contractors must be mobilised to site.</p>
+          </div>
+        </div>
+      </div>
+      <aside class="start-card" aria-label="What you need before starting">
+        <h2>Have these ready</h2>
+        <ul class="check-list">
+          <li>Your SuccessFactors email and password</li>
+          <li>The correct site, department and position</li>
+          <li>Current certificates loaded in SuccessFactors</li>
+          <li>Time to read and accept each declaration</li>
+        </ul>
+      </aside>
+    </section>
+
+    <nav class="path-nav" aria-label="Choose a task">
+      <button class="path-button active" data-target="statutory">Make a statutory appointment</button>
+      <button class="path-button" data-target="hsr">Add or manage an HSR</button>
+      <button class="path-button" data-target="sse">Make an SSE appointment</button>
+      <button class="path-button" data-target="rescind">Rescind an appointment</button>
+    </nav>
+
+    <section id="statutory" class="guide-section active" data-guide-section>
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Main process</p>
+          <h2>Make a statutory appointment</h2>
+          <p>Complete these steps in order. Do not book the SSE sign-off session until the earlier steps are complete.</p>
+        </div>
+        <div class="progress-wrap" aria-label="Progress through statutory appointment steps">
+          <span id="progressText">Step 1 of 7</span>
+          <div class="progress-track"><div id="progressBar" class="progress-bar"></div></div>
+        </div>
+      </div>
+
+      <div class="step-layout">
+        <div class="step-list" role="tablist" aria-label="Statutory appointment steps">
+          <button class="step-tab active" role="tab" aria-selected="true" data-step="1"><span>1</span> Sign in</button>
+          <button class="step-tab" role="tab" aria-selected="false" data-step="2"><span>2</span> Start the request</button>
+          <button class="step-tab" role="tab" aria-selected="false" data-step="3"><span>3</span> Select the position</button>
+          <button class="step-tab" role="tab" aria-selected="false" data-step="4"><span>4</span> Enter appointee details</button>
+          <button class="step-tab" role="tab" aria-selected="false" data-step="5"><span>5</span> Check evidence</button>
+          <button class="step-tab" role="tab" aria-selected="false" data-step="6"><span>6</span> Complete sign-off</button>
+          <button class="step-tab" role="tab" aria-selected="false" data-step="7"><span>7</span> Confirm active status</button>
+        </div>
+
+        <div class="step-panels">
+          <article class="step-panel active" data-panel="1">
+            <div class="step-copy">
+              <p class="step-label">Step 1</p>
+              <h3>Sign in with your SuccessFactors details</h3>
+              <ol>
+                <li>Open the Statutory Positions App from the Fortescue Hub App Centre.</li>
+                <li>Contractors use the link in the Contractor Extranet Hub.</li>
+                <li>Enter the same email and password you use for SuccessFactors.</li>
+              </ol>
+              <div class="tip"><strong>Cannot sign in?</strong> Check that you are mobilised to site. For technical issues, contact the IT Service Desk.</div>
+            </div>
+            <figure><img src="assets/01-sign-in.png" alt="Example of the Statutory Positions App sign-in screen"><figcaption>Use your SuccessFactors sign-in details.</figcaption></figure>
+          </article>
+
+          <article class="step-panel" data-panel="2" hidden>
+            <div class="step-copy">
+              <p class="step-label">Step 2</p>
+              <h3>Start a new request</h3>
+              <ol>
+                <li>Select <strong>Make An Appointment</strong>.</li>
+                <li>Select <strong>Statutory Appointment Request</strong>.</li>
+              </ol>
+              <div class="warning"><strong>Only continue if:</strong> you are the appointee or the appointee's direct leader.</div>
+            </div>
+            <figure><img src="assets/02-start-request.png" alt="Make An Appointment and Statutory Appointment Request buttons"><figcaption>Select the two buttons shown.</figcaption></figure>
+          </article>
+
+          <article class="step-panel" data-panel="3" hidden>
+            <div class="step-copy">
+              <p class="step-label">Step 3</p>
+              <h3>Select the correct statutory position</h3>
+              <ol>
+                <li>Review the available position types.</li>
+                <li>Select the position that matches the person's actual duties.</li>
+                <li>Common choices include Electrical Supervisor and Statutory Supervisor.</li>
+              </ol>
+              <div class="tip"><strong>Not sure?</strong> Stop and confirm the correct position with site leadership or HS Compliance before continuing.</div>
+            </div>
+            <figure><img src="assets/03-select-position.png" alt="List of statutory position types in the app"><figcaption>Select the position that applies.</figcaption></figure>
+          </article>
+
+          <article class="step-panel" data-panel="4" hidden>
+            <div class="step-copy">
+              <p class="step-label">Step 4</p>
+              <h3>Enter the appointee details</h3>
+              <ol>
+                <li>Search for the appointee by name or FID.</li>
+                <li>Confirm the site, department, work group and operational area.</li>
+                <li>Read each declaration carefully.</li>
+                <li>Choose whether this request replaces an existing appointment.</li>
+              </ol>
+              <div class="warning"><strong>Check before submitting:</strong> The person, site and role must all be correct.</div>
+            </div>
+            <figure><img src="assets/04-appointee-details.png" alt="Appointee details form in the Statutory Positions App"><figcaption>Complete every required field.</figcaption></figure>
+          </article>
+
+          <article class="step-panel" data-panel="5" hidden>
+            <div class="step-copy">
+              <p class="step-label">Step 5</p>
+              <h3>Check competency evidence</h3>
+              <ol>
+                <li>Read the evidence requirements shown in the app.</li>
+                <li>Make sure certificates are loaded in SuccessFactors.</li>
+                <li>Send external Statements of Attainment or exam certificates to the site Training team.</li>
+                <li>Complete the disclaimer and submit.</li>
+              </ol>
+              <div class="warning"><strong>The request will stop</strong> if a required certificate is missing from SuccessFactors.</div>
+              <div class="tip"><strong>Do not send competency evidence to HS Compliance.</strong> Use the site Training team.</div>
+            </div>
+            <figure><img src="assets/05-evidence.png" alt="Evidence requirements and qualification warning in the app"><figcaption>Missing evidence creates a block.</figcaption></figure>
+          </article>
+
+          <article class="step-panel" data-panel="6" hidden>
+            <div class="step-copy">
+              <p class="step-label">Step 6</p>
+              <h3>Complete the SSE and appointee sign-off</h3>
+              <ol>
+                <li>Wait for instructions in SuccessFactors.</li>
+                <li>Attend the sign-off session with the site's GM, who is the SSE.</li>
+                <li>The SSE signs the request in the app.</li>
+                <li>The appointee then opens the request and signs their acceptance.</li>
+              </ol>
+              <div class="warning"><strong>Do not book or attend the sign-off session</strong> until all earlier steps are complete.</div>
+            </div>
+            <figure><img src="assets/06-signoff.png" alt="Statutory position sign-off meeting screen"><figcaption>The app shows when the request is ready for sign-off.</figcaption></figure>
+          </article>
+
+          <article class="step-panel" data-panel="7" hidden>
+            <div class="step-copy">
+              <p class="step-label">Step 7</p>
+              <h3>Check the appointment is active</h3>
+              <ol>
+                <li><strong>Authoriser:</strong> waiting for the SSE to sign.</li>
+                <li><strong>Pending Acceptance:</strong> waiting for the appointee to sign.</li>
+                <li><strong>Active:</strong> the appointment is complete. No further action is required.</li>
+              </ol>
+              <div class="success"><strong>Finished:</strong> The status must show <strong>Active</strong>.</div>
+            </div>
+            <figure><img src="assets/07-status-stages.png" alt="Examples of Authoriser, Pending Acceptance and Active status"><figcaption>Use the status to see what must happen next.</figcaption></figure>
+          </article>
+
+          <div class="step-controls">
+            <button id="previousStep" class="secondary-button" type="button" disabled>Previous</button>
+            <button id="nextStep" class="primary-button" type="button">Next step</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="hsr" class="guide-section" data-guide-section hidden>
+      <div class="section-heading"><div><p class="eyebrow">HSR process</p><h2>Add or manage a Health and Safety Representative</h2><p>The HSR process is shorter and does not have an approval workflow.</p></div></div>
+      <div class="card-grid">
+        <article class="simple-card"><span class="number">1</span><h3>Open the HSR area</h3><p>Select <strong>Make An Appointment</strong>, then <strong>HSR Appointment Request</strong>.</p><img src="assets/09-hsr-start.png" alt="HSR Appointment Register and Make An Appointment buttons"></article>
+        <article class="simple-card"><span class="number">2</span><h3>Complete the details</h3><p>Enter the HSR, person who conducted the election, site, department, crew and election date.</p><img src="assets/10-hsr-details.png" alt="HSR appointment request form"></article>
+        <article class="simple-card"><span class="number">3</span><h3>Submit and check the register</h3><p>The HSR becomes active immediately. There is no approval step.</p><div class="tip"><strong>Expiry reminder:</strong> Emails are sent three months before the three-year election period ends.</div></article>
+      </div>
+    </section>
+
+    <section id="sse" class="guide-section" data-guide-section hidden>
+      <div class="section-heading"><div><p class="eyebrow">Special process</p><h2>Make an SSE or Alternate SSE appointment</h2><p>This process is different because the appointee accepts first, then the Mine Operator authorises the appointment.</p></div></div>
+      <div class="process-strip">
+        <div><span>1</span><p>Select <strong>Site Senior Executive</strong>.</p></div>
+        <div><span>2</span><p>Enter details and complete competency requirements.</p></div>
+        <div><span>3</span><p>Complete the tailings acknowledgement where the site has a TSF.</p></div>
+        <div><span>4</span><p>The appointee signs acceptance.</p></div>
+        <div><span>5</span><p>Contact HS Compliance to arrange Mine Operator sign-off.</p></div>
+      </div>
+      <div class="image-pair">
+        <figure><img src="assets/11-sse-start.png" alt="Site Senior Executive selection in the app"><figcaption>Select the SSE appointment type.</figcaption></figure>
+        <figure><img src="assets/12-sse-process.png" alt="SSE details, competencies and pending acceptance screens"><figcaption>Complete the SSE-specific requirements.</figcaption></figure>
+        <figure><img src="assets/13-sse-authoriser.png" alt="SSE authoriser message"><figcaption>Contact HS Compliance when the authoriser message appears.</figcaption></figure>
+      </div>
+    </section>
+
+    <section id="rescind" class="guide-section" data-guide-section hidden>
+      <div class="section-heading"><div><p class="eyebrow">End an appointment</p><h2>Rescind an appointment</h2><p>Use this when an appointment is no longer needed or valid.</p></div></div>
+      <div class="single-task">
+        <div>
+          <ol class="large-steps">
+            <li>Open the appointment record.</li>
+            <li>Select <strong>Rescind Appointment</strong> in the top-right corner.</li>
+            <li>Enter a clear reason.</li>
+            <li>Confirm the appointment now shows as rescinded.</li>
+          </ol>
+          <div class="warning"><strong>The reason becomes part of the appointment record.</strong> Keep it factual and clear.</div>
+        </div>
+        <figure><img src="assets/08-rescind.png" alt="Rescind Appointment button in the appointment record"><figcaption>Select the red Rescind Appointment button.</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="help-section">
+      <h2>Need help?</h2>
+      <div class="help-grid">
+        <div><h3>Cannot access the app</h3><p>Confirm you are mobilised to site and are using your SuccessFactors account. Contact the IT Service Desk for technical issues.</p></div>
+        <div><h3>Certificate is missing</h3><p>Send the certificate to your site Training team so it can be loaded into SuccessFactors.</p></div>
+        <div><h3>Unsure about the appointment</h3><p>Contact HS Compliance or site leadership before submitting the request.</p></div>
+      </div>
+      <p class="source-note">This guide simplifies QRG 45-GU-SA-0018 Rev 2. The controlled procedure and current app instructions remain the source of truth.</p>
+    </section>
+  </main>
+
+  <dialog id="imageDialog">
+    <button id="closeDialog" class="dialog-close" type="button" aria-label="Close image">Close</button>
+    <img id="dialogImage" src="" alt="">
+  </dialog>
+
+  <footer>
+    <p>Statutory Positions App - simple guide</p>
+    <p>Brand approval is required before publishing any Fortescue-branded communication.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
